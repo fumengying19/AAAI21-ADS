@@ -1,0 +1,40 @@
+2020-11-04 22:02:22,144-[random]: Checkpoint Path: output/1104220222
+2020-11-04 22:02:22,144-[random]: Visdom Port: 9000
+2020-11-04 22:02:22,144-[random]: CONFIG -- DATASET - NUM_TRAIN: 50000
+2020-11-04 22:02:22,144-[random]: CONFIG -- DATASET - NUM_VAL: 0
+2020-11-04 22:02:22,144-[random]: CONFIG -- DATASET - ROOT: {'cifar10': '~/datasets', 'cifar100': '~/datasets'}
+2020-11-04 22:02:22,144-[random]: CONFIG -- ACTIVE_LEARNING - TRIALS: 10
+2020-11-04 22:02:22,144-[random]: CONFIG -- ACTIVE_LEARNING - CYCLES: 1
+2020-11-04 22:02:22,144-[random]: CONFIG -- ACTIVE_LEARNING - ADDENDUM: 1000
+2020-11-04 22:02:22,144-[random]: CONFIG -- ACTIVE_LEARNING - SUBSET: 10000
+2020-11-04 22:02:22,144-[random]: CONFIG -- TRAIN - BATCH: 128
+2020-11-04 22:02:22,144-[random]: CONFIG -- TRAIN - EPOCH: 200
+2020-11-04 22:02:22,144-[random]: CONFIG -- TRAIN - LR: 0.1
+2020-11-04 22:02:22,144-[random]: CONFIG -- TRAIN - MILESTONES: [160]
+2020-11-04 22:02:22,144-[random]: CONFIG -- TRAIN - EPOCHL: 120
+2020-11-04 22:02:22,144-[random]: CONFIG -- TRAIN - MOMENTUM: 0.9
+2020-11-04 22:02:22,144-[random]: CONFIG -- TRAIN - WDECAY: 0.0005
+2020-11-04 22:02:22,145-[random]: CONFIG -- TRAIN - MIN_CLBR: 0.1
+2020-11-04 22:02:22,145-[random]: CONFIG -- TRAIN - MAX_CLBR: 0.1
+2020-11-04 22:02:22,145-[random]: CONFIG -- LEARNING_LOSS - MARGIN: 1.0
+2020-11-04 22:02:22,145-[random]: CONFIG -- LEARNING_LOSS - WEIGHT: 1.0
+2020-11-04 22:02:27,916-[random]: >> Train a Model.
+2020-11-04 22:40:13,436-[random]: >> Finished.
+2020-11-04 22:40:13,525-[random]: Start Test
+2020-11-04 22:40:16,324-[random]: End Test
+2020-11-04 22:40:16,325-[random]: Trial 1/10 || Cycle 1/1 || Label set size 1000: Test acc 55.945
+2020-11-04 22:40:16,638-[random]: >> Train a Model.
+2020-11-04 23:17:58,601-[random]: >> Finished.
+2020-11-04 23:17:58,792-[random]: Start Test
+2020-11-04 23:18:02,017-[random]: End Test
+2020-11-04 23:18:02,017-[random]: Trial 2/10 || Cycle 1/1 || Label set size 1000: Test acc 58.43
+2020-11-04 23:18:02,452-[random]: >> Train a Model.
+2020-11-04 23:55:50,479-[random]: >> Finished.
+2020-11-04 23:55:50,664-[random]: Start Test
+2020-11-04 23:55:53,427-[random]: End Test
+2020-11-04 23:55:53,427-[random]: Trial 3/10 || Cycle 1/1 || Label set size 1000: Test acc 58.480000000000004
+2020-11-04 23:55:53,867-[random]: >> Train a Model.
+2020-11-05 00:33:39,371-[random]: >> Finished.
+2020-11-05 00:33:39,536-[random]: Start Test
+2020-11-05 00:33:42,295-[random]: End Test
+2020-11-05 00:33:42,295-[random]: Trial 4/10 || Cycle 1/1 || Label set size 1000: Test acc 56.09
