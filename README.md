@@ -31,6 +31,10 @@ convolutional neural network (CNN). Minimizing classifiers’ prediction discrep
 
   numpy >= 1.16.2
 
+3. Dataset
+    cifar10, cifar100
+    
+    
 ### Train and test
 - Train
     ~~~
