@@ -13,7 +13,7 @@ Agreement-Discrepancy-Selection: Active Learning with Progressive Distribution A
 We propose an Agreement-Discrepancy-Selection (ADS) approach, and target at unifying the model training with sample selection by introducing adversarial classifiers atop a
 convolutional neural network (CNN). Minimizing classifiers’ prediction discrepancy (maximizing their prediction agreement) drives learning CNN features to align the distributions of labeled and unlabeled samples. Maximizing classifiers’ discrepancy highlights informative samples by an entropy-based sample selection metric. Iterative prediction agreement-discrepancy progressively aligns the distributions of labeled and unlabeled sets in a progressive distribution alignment fashion for active learning.
 
-![](figs/ADS.png)
+![](ADS.png)
 
 ## Getting started
 ### Install
@@ -40,7 +40,9 @@ convolutional neural network (CNN). Minimizing classifiers’ prediction discrep
     
  
  ## Visualization
- <img src='figs/results_resnet.png' align="center" width="400px"> <img src='figs/results_vgg.png' align="center" width="400px">
+ <img src='results.png' align="center">
+ 
+ <img src='visual.png' align="center">
 
 
  ## Acknowledgement
