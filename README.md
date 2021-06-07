@@ -21,7 +21,7 @@ convolutional neural network (CNN). Minimizing classifiers’ prediction discrep
 
     ~~~
     ADS_ROOT=/path/to/clone/ADS
-    git clone --recursive https://github.com/fumengying19/AAAI21-ADS $ADS_ROOT
+    git clone --recursive https://github.com/fumengying19/AAAI21-ADS/tree/code $ADS_ROOT
     cd $ADS_ROOT
     ~~~
   
@@ -34,8 +34,7 @@ convolutional neural network (CNN). Minimizing classifiers’ prediction discrep
 ### Train and test
 - Train
     ~~~
-    cd scripts
-    sh train_DA_cub.sh
+    python main_ADS.py
     ~~~
     
  
